@@ -75,5 +75,53 @@ header {
 
 .signup button:hover {
   background-color: #4d45e3dd;
+}
 
+
+.action-section {
+  background-color: #f8f9ff;
+  padding: 45px 80px;
+}
+
+.action-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.action-text {
+  text-align: left;
+}
+
+.action-text h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+.action-text p {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.preview-btn {
+  background-color: #4c44e5;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.preview-btn:hover {
+  background-color: #4d45e3dd;
+}
+
+.action-img img {
+  border-radius: 20px;
 }
